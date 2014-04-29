@@ -7,7 +7,7 @@ use POSIX qw(strftime);
 with 'Exobrain::Agent';
 
 # ABSTRACT: Roles for to iDonethis agents
-our $VERSION = '1.07'; # VERSION
+our $VERSION = '1.08'; # VERSION
 
 
 sub component_name { "Idonethis" }
@@ -44,7 +44,7 @@ Exobrain::Agent::Idonethis - Roles for to iDonethis agents
 
 =head1 VERSION
 
-version 1.07
+version 1.08
 
 =head1 SYNOPSIS
 

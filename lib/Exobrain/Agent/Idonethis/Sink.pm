@@ -6,7 +6,7 @@ with 'Exobrain::Agent::Idonethis';
 with 'Exobrain::Agent::Run';
 
 # ABSTRACT: Send personal log events to iDoneThis
-our $VERSION = '1.07'; # VERSION
+our $VERSION = '1.08'; # VERSION
 
 method run() {
     $self->exobrain->watch_loop(
@@ -39,7 +39,7 @@ Exobrain::Agent::Idonethis::Sink - Send personal log events to iDoneThis
 
 =head1 VERSION
 
-version 1.07
+version 1.08
 
 =head1 AUTHOR
 

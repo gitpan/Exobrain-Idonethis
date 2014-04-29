@@ -4,7 +4,7 @@ use Exobrain::Config;
 use feature qw(say);
 
 # ABSTRACT: Idonethis components for Exobrain
-our $VERSION = '1.07'; # VERSION
+our $VERSION = '1.08'; # VERSION
 
 with 'Exobrain::Component';
 
@@ -68,7 +68,7 @@ Exobrain::Idonethis - Idonethis components for Exobrain
 
 =head1 VERSION
 
-version 1.07
+version 1.08
 
 =for Pod::Coverage setup services component
 
